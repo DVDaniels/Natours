@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Natours",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Natours"
+	}
+}
