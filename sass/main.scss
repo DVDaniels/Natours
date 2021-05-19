@@ -7,14 +7,15 @@
 @import "bass/typography";
 @import "bass/utilities";
 
+@import "components/bg-video";
 @import "components/button";
+@import "components/cards";
 @import "components/composition";
 @import "components/feature-box";
-@import "components/cards";
+@import "components/form";
 @import "components/story";
-@import "components/bg-video";
 
-@import "layout/header";
 @import "layout/grid";
+@import "layout/header";
 
 @import "pages/home";
