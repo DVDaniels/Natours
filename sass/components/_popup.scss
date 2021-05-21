@@ -10,7 +10,7 @@
     visibility: hidden;
 
     &__content {
-        @include absCenter
+        @include absCenter;
         width: 75%;
         
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
