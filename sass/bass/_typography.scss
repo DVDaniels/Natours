@@ -1,3 +1,5 @@
+
+
 .heading-primary {
     color: $color-white;
     text-transform: uppercase;
@@ -33,6 +35,10 @@ body {
     line-height: 1.7;
     color: $color-grey-dark;
     padding: 3rem;
+
+    @include respond(tab-port) { 
+        padding: 0;
+    }
 }
 
 .heading-secondary {
