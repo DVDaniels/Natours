@@ -1,10 +1,19 @@
 .row {
     max-width: $grid-width;
     margin: 0 auto;
-    
+
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
+
+        @include respond(tab-land) {
+            margin-bottom: $gutter-vertical-small;
+        }
+    }
+
+    @include respond(tab-land) {
+        max-width: 50rem;
+        padding: 0 3rem;
     }
 
     @include clearfix;
@@ -14,7 +23,17 @@
 
         &:not(:last-child) {
             margin-right: $horizontal-gutter;
+
+            @include respond(tab-land) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+            }
         }
+
+        @include respond(tab-land) {
+            width: 100% !important;
+        }
+        
     }
 
     .col-1-of-2 {
